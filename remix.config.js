@@ -1,4 +1,7 @@
 /** @type {import('@remix-run/dev').AppConfig} */
+require('dotenv-vault').config()
+console.log(process.env)
+
 module.exports = {
   serverBuildTarget: "vercel",
   // When running locally in development mode, we use the built in remix
