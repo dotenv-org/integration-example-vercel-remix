@@ -1,6 +1,5 @@
 /** @type {import('@remix-run/dev').AppConfig} */
 require('dotenv-vault').config()
-console.log(process.env)
 
 module.exports = {
   serverBuildTarget: "vercel",
