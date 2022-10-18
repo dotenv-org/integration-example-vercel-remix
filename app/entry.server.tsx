@@ -2,8 +2,6 @@ import type { EntryContext } from "@remix-run/node";
 import { RemixServer } from "@remix-run/react";
 import { renderToString } from "react-dom/server";
 
-require('dotenv-vault-core').config()
-
 export default function handleRequest(
   request: Request,
   responseStatusCode: number,
