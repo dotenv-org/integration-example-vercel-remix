@@ -2,7 +2,7 @@
   "private": true,
   "sideEffects": false,
   "scripts": {
-    "build": "remix build",
+    "build": "node -r dotenv-vault-core/config node_modules/.bin/remix build",
     "dev": "node -r dotenv-vault-core/config node_modules/.bin/remix dev"
   },
   "dependencies": {

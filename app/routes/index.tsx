@@ -1,8 +1,6 @@
 import { json } from "@remix-run/node";
 import { useLoaderData } from "@remix-run/react";
 
-require('dotenv-vault-core').config()
-
 export async function loader() {
   return json({
     env: {
